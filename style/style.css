@@ -1,0 +1,184 @@
+body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.largura-maxima {
+    max-width: 1200px; /* Defina o tamanho máximo desejado */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+
+/* ////////////////////////////////////////// */
+
+/* Cabeçalho */
+header{
+    text-align: center;
+    font-size: large;
+}
+
+header a{
+    color: white;
+}
+
+header h4{
+    padding-top: 10px;
+    font-size: small;
+}
+.caixaFrete{
+    background-color: grey;
+}
+.logo{
+    width: 90px;
+    height: 50px;
+}
+/* FIM Cabeçalho */
+
+/* ////////////////////////////////////////// */
+
+/* Main */
+
+
+.card-img-top {
+    transition: transform 0.2s; /* Adiciona uma transição suave para o efeito de zoom */
+}
+
+.card-img-top:hover {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% no hover */
+}
+
+.card h5{
+    text-align: center;
+}
+
+.card p{
+    text-align: left;
+}
+
+/* Página Compra */
+.caixa{
+    width: 550px;
+    height: 525px;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 15px;
+    padding: 15px;
+    /* margin-top: 20px; */
+}
+
+.caixa p, h5{
+    text-align: left;
+    margin-left: 5px;
+}
+
+.caixa input{
+    /* border: none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-bottom: 2px white;
+    color: white;
+    padding: 7px; */
+    font-size: 1rem;
+    padding: 7px;
+    background-color: rgba(128, 128, 128, 0.1);
+    color: #fff;
+    height: 42px;
+    display: block;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.caixaTopo{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.1);
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.caixaFundo{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.caixaFundo2{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 15px;
+}
+
+.imgPcom{
+    border-radius: 15px;
+    height: 600px;
+}
+
+.textoPcom{
+    text-align: left;
+}
+
+#botao{
+    width: 100px;
+}
+
+/* FIM Página Compra */
+
+/* Página Tabela Frete */
+.caixa2{
+    width: 100px;
+    height: 430px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.h2, table{
+    margin-top: 40px;
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: large;
+}
+
+
+td{
+    border: 1px solid white;
+    padding: 10px;
+
+    height: 100%;
+}
+
+.ajusteTabela{
+    text-align: center;
+}
+
+
+/* FIM Página Tabela Frete */
+/* FIM Main */
+

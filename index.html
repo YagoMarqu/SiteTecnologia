@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SemSung</title>
+
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css">
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container-fluid p-2">
+            <div class="row">
+                <div class="col">
+                  <a href="index.html">
+                    <img class="logo" src="img/logo.png" alt="">
+                  </a>
+                </div>
+                <!-- <div class="col"></div> -->
+                <div class="col centro">
+                  <a href="index.html">Home</a>
+                </div>
+                <!-- <div class="col"></div>
+                <div class="col"></div> -->
+                <div class="col centro">
+                  <a href="#">Login</a>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col centro caixaFrete">
+                <h4>Frete Grátis para todo o estado de SP. <a href="tabelaFrete.html">Confira aqui</a> a tabela de fretes pro restante do Brasil</h4>
+              </div>
+            </div>
+        </div>
+    </header>
+    <!-- FIM Cabeçalho -->
+
+    <!-- //////////////////////////////////// -->
+
+    <!-- Main -->
+    <main>
+        <div class="container">
+            <!-- Caroussel -->
+            <div class="row">
+                <div class="banner col"><div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                      ></button>
+                    </div>
+        
+                    <!-- imagem 1 -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="paginaCompra1.html">
+                          <img
+                            src="img/IPAD PRO.png"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>iPad Pro</h5>
+                          
+                        </div>
+                      </div>
+                      <!-- fim imagem 1 -->
+        
+                      <!-- imagem 2 -->
+                      <div class="carousel-item">
+                        <a href="#">
+                          <img
+                            src="img/Screenshot_2.png"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>iPhone 15 Pro</h5>
+                          <p></p>
+                        </div>
+                      </div>
+                      <!-- fim imagem 2 -->
+        
+                      <!-- imagem 3 -->
+                      <div class="carousel-item">
+                        <a href="paginaCompra3.html">
+                          <img
+                            src="img/Screenshot_100.png"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Apple Watch Series 9</h5>
+                          <p></p>
+                        </div>
+                      </div>
+                      <!-- fim imagem 3 -->
+                    </div>
+        
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+        
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+            </div>
+            <!-- Fim Caroussel -->
+
+            <!-- //////////////////////////////////// -->
+
+            <!-- Cards -->
+            <!-- Primeira Linha -->
+            <div class="row pt-3">
+                <!-- Card 1 -->
+                <div class="col pt-3 centro">
+                    <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                        <img src="img/aimg11.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ipad Pro</h5>
+                            <p class="card-text">Preço US$: <strong id="dolar">799</strong></p>
+                            <p class="card-text" id="real">Preço BR$:</p>
+                            <a href="paginaCompra1.html" class="btn btn-primary centro">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Card 1 -->
+
+                <!-- ////////////////////////////////// -->
+
+                <!-- Card 2 -->
+                <div class="col pt-3 centro">
+                    <div class="card text-bg-dark mb-3 " style="width: 18rem; ">
+                        <img src="img/semsung.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Samsung Galaxy S23 Ultra</h5>
+                          <p class="card-text">Preço US$: <strong id="dolar2">1999</strong></p>
+                          <p class="card-text" id="real2">Preço BR$:</p>
+                          <a href="paginaCompra2.html" class="btn btn-primary centro">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIM Card 2 -->
+
+                <!-- /////////////////////////////////// -->
+
+                <!-- Card 3 -->
+                <div class="col pt-3 centro">
+                    <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                        <img src="img/Apple-Watch-xl.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="border: none;">
+                          <h5 class="card-title">Apple Watch Series 9</h5>
+                          <p class="card-text">Preço US$: <strong id="dolar3">399</strong></p>
+                          <p class="card-text" id="real3">Preço BR$:</p>
+                          <a href="paginaCompra3.html" class="btn btn-primary centro">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIM Card 3 -->
+            </div>
+            <!-- FIM Primeira Linha -->
+            
+            <!-- ////////////////////////////////// -->
+
+            <!-- Segunda Linha -->
+            <div class="row pt-3">
+                <!-- Card 1 -->
+                <div class="col pt-3 centro">
+                    <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                        <img src="img/galaxy-z-fold-5-render.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Galaxy Z Fold5</h5>
+                          <p class="card-text">Preço US$: <strong id="dolar4">1899</strong></p>
+                          <p class="card-text" id="real4">Preço BR$:</p>
+                          <a href="#" class="btn btn-primary centro">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Card 1 -->
+
+                <!-- ////////////////////////////////// -->
+
+                <!-- Card 2 -->
+                <div class="col pt-3 centro">
+                  <div class="card text-bg-dark mb-3 centro" style="width: 18rem;">
+                      <img src="img/15proMax.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">iPhone 15 Pro Max</h5>
+                        <p class="card-text">Preço US$: <strong id="dolar5">1119</strong></p>
+                        <p class="card-text" id="real5">Preço BR$:</p>
+                        <a href="#" class="btn btn-primary centro">Comprar</a>
+                      </div>
+                  </div>
+              </div>
+                <!-- FIM Card 2 -->
+
+                <!-- /////////////////////////////////// -->
+
+                <!-- Card 3 -->
+                <div class="col pt-3 centro">
+                    <div class="card text-bg-dark mb-3" style="width: 18rem;">
+                        <img src="img/PSVR2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">PlayStation VR2</h5>
+                          <p class="card-text">Preço US$: <strong id="dolar6">599</strong></p>
+                          <p class="card-text" id="real6">Preço BR$:</p>
+                          <a href="#" class="btn btn-primary centro">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIM Card 3 -->
+            </div>
+            <!-- Fim Segunda Linha -->
+            <!-- FIM Cards -->
+        </div>
+    </main>
+    <!-- FIM Main -->
+
+    <!-- /////////////////////////////////// -->
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="container-fluid">
+          <div class="row pt-3">
+            <div class="col">
+              <p class="centro" style="text-align: left;">Email: semsungoficial@gmail.com</p>
+              <p class="centro" style="text-align: left;">Telefone: (11)91234-5678</p>
+            </div>
+            <div class="col centro">
+              <p style="text-align: right;">Copyright © 2023 Semsung</p>
+            </div>
+          </div>
+      </div>
+  </footer>
+    <!-- FIM Rodapé -->
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script src="script/converteDolar.js"></script>
+</body>
+</html>
